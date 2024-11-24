@@ -5,7 +5,7 @@ import erosText from '../app/assets/erosText.svg'
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center flex-col'>
+    <div className='flex justify-center items-center flex-col pt-10'>
         <Image 
             src={erosLogo} 
             alt="erosLogo"
@@ -18,7 +18,7 @@ const Hero = () => {
             width={343}
             height={100}
         />
-        <h1 className='text-white font-jetbrains text-6xl'>00D : 00H : 04M : 24S </h1>
+        <h1 className='text-white font-jetbrains text-6xl pt-16'>00D : 00H : 04M : 24S </h1>
     </div>
   )
 }

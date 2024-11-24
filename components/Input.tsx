@@ -2,7 +2,7 @@ import React from 'react'
 
 const Input = () => {
   return (
-    <div className='w-screen flex justify-center p-10 font-jetbrains'>
+    <div className='w-screen flex justify-center p-14 font-jetbrains'>
         <div className='w-[387px] h-16 bg-grey-gradient grid grid-cols-6'>
             <div className='col-start-1 col-end-5 flex flex-row items-center'>
                 <input type="text" placeholder='EMAIL' className='bg-transparent placeholder-black placeholder:pl-5'/>

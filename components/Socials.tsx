@@ -4,7 +4,7 @@ import tiktokLogo from '../app/assets/tiktokLogo.svg'
 
 const Socials = () => {
   return (
-    <div className="flex flex-row gap-10 w-screen justify-center mt-64">
+    <div className="flex flex-row gap-14 w-screen justify-center h-44">
         <Image src={igLogo} alt="iglogo" width={51} height={51}></Image>
         <Image src={tiktokLogo} alt="tiktoklogo" width={43} height={51}></Image>
     </div>
