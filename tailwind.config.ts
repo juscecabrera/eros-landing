@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily : {
+        jetbrains: ['JetBrains', 'sans-serif']
+      },
+      backgroundImage : {
+        'grey-gradient': 'linear-gradient(90deg, #D9D9D9 0%, #737373 100%)',
+      }
     },
   },
   plugins: [],
