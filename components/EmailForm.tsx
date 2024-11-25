@@ -7,13 +7,13 @@ const EmailForm: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [name, setName] = useState<string>('');
   const [popup, setPopup] = useState<boolean>(false);
-  const [message, setMessage] = useState<string>('');
+  // const [message, setMessage] = useState<string>('');
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
     if (!email || !email.includes('@')) {
-      setMessage('Por favor, ingresa un correo válido.');
+      // setMessage('Por favor, ingresa un correo válido.');
       return;
     }
 
@@ -30,13 +30,13 @@ const EmailForm: React.FC = () => {
         templateParams,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // Public Key
       );
-      setMessage('¡Correo enviado correctamente!');
+      // setMessage('¡Correo enviado correctamente!');
       setPopup(true); // Muestra el pop-up de éxito
       setEmail(''); // Limpia el input
       setName(''); // Limpia el input
     } catch (error) {
       console.error('Error al enviar el correo:', error);
-      setMessage('Error al enviar el correo. Inténtalo de nuevo.');
+      // setMessage('Error al enviar el correo. Inténtalo de nuevo.');
     }
   };
 

@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Input from "@/components/Input";
 import Socials from "@/components/Socials";
 import EmailForm from "@/components/EmailForm";
 
