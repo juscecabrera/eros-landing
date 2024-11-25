@@ -11,10 +11,12 @@ interface SuccessPopupProps {
 const SuccessPopup: FC<SuccessPopupProps> = ({ onClose, loading }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col items-center gap-5">
+      <div className="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col items-center justify-center gap-5 w-3/4 sm:w-1/2 lg:w-1/3 xl:w-1/4 h-[35%]">
       
       {loading 
-      ? <span className="loader"></span>
+      ? <div className='flex justify-center items-center h-full w-full'>
+        <span className="loader"></span>
+      </div> 
       : 
       <>
         <Image src={check} alt='checkmark' width={80}></Image>
