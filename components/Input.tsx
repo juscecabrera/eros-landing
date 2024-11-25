@@ -8,7 +8,7 @@ const Input = () => {
                 <input type="text" placeholder='EMAIL' className='bg-transparent placeholder-black placeholder:pl-5'/>
             </div>
             <div className='col-start-5 col-end-7 flex flex-row justify-center items-center border-l-2 border-black'>
-                <p className=''>ENVIAR</p>
+                <button type='submit'>ENVIAR</button>
             </div>
         </div>
     </div>
