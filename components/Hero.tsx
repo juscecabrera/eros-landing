@@ -3,7 +3,6 @@ import Image from "next/image";
 import erosLogo from '../app/assets/erosLogo.svg'
 import erosText from '../app/assets/erosText.svg'
 import Countdown from './Countdown';
-import BackgroundVideo from './BGVideo';
 
 const Hero = () => {
   return (
