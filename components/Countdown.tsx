@@ -34,7 +34,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <div className='flex justify-center items-center md:pt-16 pt-5'>
-      <h1 className='text-white font-jetbrains md:text-5xl lg:text-6xl sm:text-4xl text-2xl'>
+      <h1 className='text-white font-jetbrains md:text-5xl lg:text-6xl sm:text-4xl text-3xl'>
         {String(timeLeft.days).padStart(2, '0')}D :{' '}
         {String(timeLeft.hours).padStart(2, '0')}H :{' '}
         {String(timeLeft.minutes).padStart(2, '0')}M :{' '}
