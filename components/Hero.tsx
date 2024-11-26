@@ -6,7 +6,7 @@ import Countdown from './Countdown';
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center flex-col pt-10 gap-5'>
+    <div className='flex justify-center items-center flex-col pt-10 gap-1'>
         <Image 
             src={erosLogo} 
             alt="erosLogo"

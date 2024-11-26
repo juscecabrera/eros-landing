@@ -9,7 +9,7 @@ const BackgroundVideo = () => {
         playsInline
       >
         {/* <source src='/video2.mp4' type="video/mp4" /> */}
-        <source src='/video4.mp4' type="video/mp4" />
+        <source src='/videoCorto2.mp4' type="video/mp4" />
       </video>
   );
 };
