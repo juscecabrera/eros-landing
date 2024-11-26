@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import erosLogo from '../app/assets/erosLogo.svg'
-import erosText from '../app/assets/erosText.svg'
+// import erosText from '../app/assets/erosText.svg'
 import Countdown from './Countdown';
 
 const Hero = () => {
