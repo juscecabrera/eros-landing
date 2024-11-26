@@ -16,7 +16,7 @@ export default {
         jetbrains: ['JetBrains', 'sans-serif']
       },
       backgroundImage : {
-        'grey-gradient': 'linear-gradient(90deg, #D9D9D9 0%, #737373 100%)',
+        'grey-gradient': 'linear-gradient(90deg, rgba(217, 217, 217, 0.6) 0%, rgba(115, 115, 115, 0.7) 100%)',
       }
     },
   },

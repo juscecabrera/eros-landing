@@ -8,7 +8,8 @@ const BackgroundVideo = () => {
         muted
         playsInline
       >
-        <source src='/video2.mp4' type="video/mp4" />
+        {/* <source src='/video2.mp4' type="video/mp4" /> */}
+        <source src='/video4.mp4' type="video/mp4" />
       </video>
   );
 };
