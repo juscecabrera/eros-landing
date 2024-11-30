@@ -1,4 +1,3 @@
-import Hero from "@/components/Hero";
 import Socials from "@/components/Socials";
 import EmailForm from "@/components/EmailForm";
 import BackgroundVideo from "@/components/BGVideo";
