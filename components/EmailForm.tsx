@@ -44,21 +44,19 @@ const EmailForm: React.FC = () => {
 
   return (
     <div className='w-screen flex justify-center px-14 font-jetbrains'>
-      <form onSubmit={handleSubmit} className='w-[387px] h-32 bg-grey-gradient grid grid-rows-2 backdrop-blur-[5px]'>
+      <form onSubmit={handleSubmit} className='w-[387px] bg-grey-gradient grid grid-rows-2 backdrop-blur-[5px]'>
         <input
             type="email"
             placeholder='EMAIL'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className='border-b-2 border-black bg-transparent placeholder-black pl-5 w-full focus:outline-none'
+            className='py-5 border-b-2 border-black bg-transparent placeholder-black pl-5 w-full focus:outline-none'
             required
         />
 
-        <div className='flex flex-row justify-center items-center'>
-          <button type='submit' className='text-black'>
-            ENVIAR
-          </button>
-        </div>
+        <button type='submit' className='text-black flex flex-row justify-center items-center'>ENVIAR</button>
+        {/* <div className=''>
+        </div> */}
       </form>
       {popup && <SuccessPopup onClose={() => setPopup(false)} loading={loading}/>}
     </div>
