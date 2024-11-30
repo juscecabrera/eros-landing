@@ -43,7 +43,7 @@ const EmailForm: React.FC = () => {
   };
 
   return (
-    <div className='w-screen flex justify-center pt-60 px-14  font-jetbrains'>
+    <div className='w-screen flex justify-center px-14 font-jetbrains'>
       <form onSubmit={handleSubmit} className='w-[387px] h-32 bg-grey-gradient grid grid-rows-2 backdrop-blur-[5px]'>
         <input
             type="email"
