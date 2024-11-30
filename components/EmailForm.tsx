@@ -44,7 +44,7 @@ const EmailForm: React.FC = () => {
 
   return (
     <div className='w-screen flex justify-center px-14 font-jetbrains text-white'>
-      <form onSubmit={handleSubmit} className='w-[387px] bg-transparent grid grid-rows-2 backdrop-blur-[5px] text-white border-2 border-white'>
+      <form onSubmit={handleSubmit} className='w-72 bg-transparent grid grid-rows-2 backdrop-blur-[5px] text-white border-2 border-white'>
         <input
             type="email"
             placeholder='EMAIL'
@@ -53,7 +53,7 @@ const EmailForm: React.FC = () => {
             className='py-5 border-b-2 border-white bg-transparent placeholder-white pl-5 w-full focus:outline-none'
             required
         />
-
+        
         <button type='submit' className=' flex flex-row justify-center items-center'>ENVIAR</button>
         {/* <div className=''>
         </div> */}
