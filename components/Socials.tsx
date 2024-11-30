@@ -1,7 +1,7 @@
 // import Image from "next/image"
 // import igLogo from '../app/assets/igLogo.svg'
 // import tiktokLogo from '../app/assets/tiktokLogo.svg'
-import Hero from "./Hero"
+// import Hero from "./Hero"
 
 const Socials = () => {
   return (
