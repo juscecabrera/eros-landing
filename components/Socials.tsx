@@ -4,12 +4,12 @@ import tiktokLogo from '../app/assets/tiktokLogo.svg'
 
 const Socials = () => {
   return (
-    <div className="flex flex-row gap-14 w-screen justify-center">
+    <div className="flex flex-row gap-14 w-screen justify-center pt-10">
       <a href="https://www.instagram.com/eros.fitx" target="blank">
         <Image 
           src={igLogo} 
           alt="iglogo" 
-          className="md:w-[51px] md:h-[51px] w-10 h-10"
+          className="w-10 h-10"
         />
       </a>  
        
@@ -17,7 +17,7 @@ const Socials = () => {
         <Image 
           src={tiktokLogo} 
           alt="tiktoklogo" 
-          className="md:w-[43px] md:h-[51px] w-10 h-10"
+          className="w-10 h-10"
         />
       </a>  
     </div>

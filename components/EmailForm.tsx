@@ -43,18 +43,8 @@ const EmailForm: React.FC = () => {
   };
 
   return (
-    <div className='w-screen flex justify-center p-14 font-jetbrains'>
+    <div className='w-screen flex justify-center pt-60 px-14  font-jetbrains'>
       <form onSubmit={handleSubmit} className='w-[387px] h-32 bg-grey-gradient grid grid-rows-2 backdrop-blur-[5px]'>
-        {/* <input
-            type="name"
-            placeholder='NOMBRE'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className='border-b-2 border-black bg-transparent placeholder-black pl-5 w-full focus:outline-none'
-            required
-        /> */}
-        {/* <div className='bg-black'>
-        </div> */}
         <input
             type="email"
             placeholder='EMAIL'
