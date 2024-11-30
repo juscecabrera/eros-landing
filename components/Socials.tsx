@@ -1,10 +1,12 @@
 import Image from "next/image"
 import igLogo from '../app/assets/igLogo.svg'
 import tiktokLogo from '../app/assets/tiktokLogo.svg'
+import Hero from "./Hero"
 
 const Socials = () => {
   return (
     <div className="flex flex-row gap-14 w-screen justify-center pt-10">
+      <Hero />
       <a href="https://www.instagram.com/eros.fitx" target="blank">
         <Image 
           src={igLogo} 

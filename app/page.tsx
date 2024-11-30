@@ -20,7 +20,7 @@ export default function Home() {
       <div className="row-start-3 row-end-3">
         <EmailForm />
         <Socials />
-        <Hero />
+        {/* <Hero /> */}
       </div>
   
     </div>

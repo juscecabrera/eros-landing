@@ -5,8 +5,8 @@ import erosLogo from '../app/assets/erosLogo.svg'
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center flex-col pt-10'>
-      <Image src={erosLogo} alt="erosLogo" className='w-[50px] md:w-[80px]' />
+    <div>
+      <Image src={erosLogo} alt="erosLogo" className='w-[50px] h-10' />
     </div>
   )
 }
