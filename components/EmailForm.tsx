@@ -50,13 +50,13 @@ const EmailForm: React.FC = () => {
             placeholder='EMAIL'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className='py-5 border-b-2 border-white bg-transparent placeholder-white pl-5 w-full focus:outline-none'
+            className='py-3 border-b-2 border-white bg-transparent placeholder-white pl-5 w-full focus:outline-none'
             required
         />
         
-        <button type='submit' className=' flex flex-row justify-center items-center'>ENVIAR</button>
-        {/* <div className=''>
-        </div> */}
+        <div className='flex flex-row justify-center items-center'>
+          <button type='submit' className=''>ENVIAR</button>
+        </div>
       </form>
       {popup && <SuccessPopup onClose={() => setPopup(false)} loading={loading}/>}
     </div>
